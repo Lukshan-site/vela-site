@@ -1,3 +1,4 @@
+export const runtime = "edge";
 import type { Metadata } from "next";
 import { NavBar } from "@/components/nav-bar";
 import { getCurrentProfile } from "@/lib/auth";

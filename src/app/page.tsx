@@ -1,3 +1,4 @@
+export const runtime = "edge";
 import Link from "next/link";
 import { VideoGrid } from "@/components/video-grid";
 import { fetchVideosWithCounts, fetchAllCategories } from "@/lib/queries";
