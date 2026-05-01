@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { createAdminClient } from "@/lib/supabase/admin";
 
-export const runtime = "nodejs";
+export const runtime = "edge";
 
 interface SyncBody {
   secret: string;
